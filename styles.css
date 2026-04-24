@@ -1,22 +1,22 @@
-/* Derya Forwarding — corporate freight / logistics */
+/* Meridian Forwarding — corporate freight / logistics */
 
 :root {
-  /* Global integrated carrier palette (inspired by tier‑1 shipping cos; not affiliated) */
+  /* Brand palette */
   --bg-page: #f5f9fb;
   --bg-white: #ffffff;
   --bg-muted: #eef4f8;
-  --bg-footer: #011f3d;
-  --bg-footer-deep: #001a33;
-  --text: #011f3d;
+  --bg-footer: #0f1f3d;
+  --bg-footer-deep: #091729;
+  --text: #0f1f3d;
   --text-secondary: #3d5266;
   --text-muted: #5c6b7a;
   --border: #d4e0e8;
   --border-strong: #a8bcc8;
-  --navy: #011f3d;
-  --navy-hover: #003d7a;
-  --accent: #42b0d5;
-  --accent-hover: #2a9db8;
-  --accent-subtle: rgba(66, 176, 213, 0.14);
+  --navy: #0f1f3d;
+  --navy-hover: #1a3a6b;
+  --accent: #2a7fd4;
+  --accent-hover: #1e6ab8;
+  --accent-subtle: rgba(42, 127, 212, 0.14);
   --font-sans: "Source Sans 3", system-ui, sans-serif;
   --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
   --radius: 6px;
@@ -325,6 +325,10 @@ a:hover {
   letter-spacing: -0.01em;
 }
 
+.logo-text {
+  font-weight: 700;
+}
+
 .logo:hover {
   color: var(--text);
 }
@@ -345,14 +349,12 @@ a:hover {
   border-radius: 3px;
 }
 
-.logo-svg--footer > rect:first-child {
-  fill: rgba(255, 255, 255, 0.1);
-  stroke: rgba(255, 255, 255, 0.22);
-  stroke-width: 1;
+.logo--footer .logo-accent {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .logo-accent {
-  font-weight: 600;
+  font-weight: 300;
   color: var(--text-muted);
   margin-left: 5px;
 }
