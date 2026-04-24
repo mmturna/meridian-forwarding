@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#011f3d" />
+    <meta
+      name="description"
+      content="Meridian Forwarding — Global freight forwarding, customs clearance, and supply chain solutions. Air, ocean, and road logistics tailored to your business."
+      data-i18n-meta="description"
+    />
+    <title data-i18n-title>Meridian Forwarding | Global Freight & Logistics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip_link">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="logo" href="#top" data-i18n-aria="logo_aria">
+          <span class="logo-mark" aria-hidden="true">
+            <svg class="logo-svg" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="36" height="36" rx="4" fill="#011F3D"/>
+              <line x1="18" y1="3" x2="18" y2="33" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+              <line x1="3" y1="18" x2="33" y2="18" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+              <path d="M7 28 Q16 7 29 14" stroke="#42B0D5" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+              <circle cx="7" cy="28" r="3" fill="#fff" opacity="0.92"/>
+              <circle cx="7" cy="28" r="1.3" fill="#42B0D5"/>
+              <circle cx="29" cy="14" r="3" fill="#fff" opacity="0.92"/>
+              <circle cx="29" cy="14" r="1.3" fill="#011F3D"/>
+            </svg>
+          </span>
+          <span class="logo-text">Meridian<span class="logo-accent" data-i18n="logo_forwarding">Forwarding</span></span>
+        </a>
+        <div class="header-tools">
+          <div class="lang-switch">
+            <select class="lang-select" id="lang-select" aria-label="Language">
+              <option value="en">EN</option>
+              <option value="tr">TR</option>
+            </select>
+          </div>
+          <nav class="nav" data-i18n-aria="nav_aria">
+            <button
+              type="button"
+              class="nav-toggle"
+              aria-expanded="false"
+              aria-controls="nav-menu"
+            >
+              <span class="nav-toggle-bar"></span>
+              <span class="nav-toggle-bar"></span>
+              <span class="sr-only" data-i18n="menu">Menu</span>
+            </button>
+            <ul class="nav-list" id="nav-menu">
+              <li><a href="#services" data-i18n="nav_services">Services</a></li>
+              <li><a href="#why" data-i18n="nav_why">Why us</a></li>
+              <li><a href="#process" data-i18n="nav_process">Process</a></li>
+              <li><a href="#contact" class="nav-cta" data-i18n="nav_quote">Get a quote</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="transport-strip" role="region" data-i18n-aria="transport_strip_aria">
+      <div class="container transport-strip-inner">
+        <span class="transport-strip-label" data-i18n="transport_strip_label">Modes we cover</span>
+        <ul class="transport-strip-modes">
+          <li>
+            <span class="transport-strip-icon" title="Ocean">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2 18c2 2 5 3 8 3s6-1 8-3c2 2 5 3 8 3s6-1 8-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M4 14h24l-2-6H6L4 14z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <path d="M8 8V6h16v2" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </span>
+            <span data-i18n="strip_ocean">Ocean</span>
+          </li>
+          <li>
+            <span class="transport-strip-icon" title="Air">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 16h8l4-10 2 10h10l-2 4H18l-2 6-2-6H4v-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+              </svg>
+            </span>
+            <span data-i18n="strip_air">Air</span>
+          </li>
+          <li>
+            <span class="transport-strip-icon" title="Road">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 20h24v4H4v-4z" stroke="currentColor" stroke-width="1.5" />
+                <path d="M6 20l3-8h14l3 8" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <circle cx="9" cy="24" r="2.5" stroke="currentColor" stroke-width="1.5" />
+                <circle cx="23" cy="24" r="2.5" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </span>
+            <span data-i18n="strip_road">Road</span>
+          </li>
+          <li>
+            <span class="transport-strip-icon" title="Customs">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="6" y="4" width="20" height="24" rx="1" stroke="currentColor" stroke-width="1.5" />
+                <path d="M10 12h12M10 16h12M10 20h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M16 4v-2M12 26l-2 4M20 26l2 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </span>
+            <span data-i18n="strip_customs">Customs</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="hero hero--carrier" aria-labelledby="hero-heading">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="hero-bg-grid"></div>
+          <div class="hero-bg-glow"></div>
+        </div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow eyebrow--on-dark" data-i18n="hero_eyebrow">International freight & customs</p>
+            <div class="hero-title-block">
+              <h1 class="hero-title" id="hero-heading">
+                <span class="hero-title-line1" data-i18n="hero_title_1">Move cargo with clarity,</span>
+                <span class="hero-title-line2" data-i18n="hero_title_2">speed, and control.</span>
+              </h1>
+            </div>
+            <p class="hero-lead" data-i18n="hero_lead">
+              End-to-end forwarding for growing brands — air, ocean, and road — with proactive
+              tracking and compliance built in from day one.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary btn--hero" data-i18n="hero_cta_primary">Request a quote</a>
+              <a href="#services" class="btn btn-ghost btn--hero-ghost" data-i18n="hero_cta_secondary">Explore services</a>
+            </div>
+          </div>
+          <div class="hero-aside">
+            <div class="hero-panel">
+              <div class="panel-card panel-card--hero">
+                <div class="panel-row">
+                  <span class="panel-label" data-i18n="panel_shipment">Shipment</span>
+                  <span class="panel-badge" data-i18n="panel_transit">In transit</span>
+                </div>
+                <p class="panel-route" data-i18n="panel_route">LAX → RTM · Ocean FCL</p>
+                <div class="panel-bar"><span class="panel-bar-fill"></span></div>
+                <p class="panel-meta" data-i18n="panel_meta">ETA Apr 18 · Customs pre-filed</p>
+              </div>
+              <div class="panel-card panel-card--dim panel-card--hero">
+                <p class="panel-small" data-i18n="panel_next">Next milestone</p>
+                <p class="panel-strong" data-i18n="panel_milestone">Port discharge &amp; devanning</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="media-band" aria-labelledby="media-band-heading">
+        <div class="media-band-bg">
+          <img
+            src="https://images.unsplash.com/photo-1759272840538-ae4b07214c71?w=2000&q=80&auto=format&fit=crop"
+            width="2000"
+            height="1125"
+            loading="lazy"
+            decoding="async"
+            alt=""
+            class="media-band-img"
+          />
+        </div>
+        <div class="media-band-scrim" aria-hidden="true"></div>
+        <div class="container media-band-content">
+          <div class="media-band-copy">
+            <p class="media-band-eyebrow" data-i18n="media_band_eyebrow">Operations</p>
+            <h2 class="media-band-title" id="media-band-heading" data-i18n="media_band_headline">
+              Cargo in motion. Teams on the clock.
+            </h2>
+            <p class="media-band-sub" data-i18n="media_band_sub">
+              From quay to warehouse door, we choreograph carriers, documentation, and exceptions so
+              your stock levels stay trustworthy.
+            </p>
+          </div>
+          <ul
+            class="media-band-stats"
+            data-i18n-aria="media_stats_aria"
+            aria-label="How we run active shipments"
+          >
+            <li class="media-band-stat">
+              <span class="media-band-stat-label" data-i18n="media_stat_1"
+                >Named desk &amp; 24/7 escalation</span
+              >
+            </li>
+            <li class="media-band-stat">
+              <span class="media-band-stat-label" data-i18n="media_stat_2"
+                >Documented SOPs &amp; handoffs</span
+              >
+            </li>
+            <li class="media-band-stat">
+              <span class="media-band-stat-label" data-i18n="media_stat_3"
+                >Single owner per file end-to-end</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-services section-services--accent" id="services">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow" data-i18n="sec_services_eyebrow">What we do</p>
+            <h2 class="section-title" data-i18n="sec_services_title">Logistics that scales with your supply chain</h2>
+            <p class="section-desc" data-i18n="sec_services_desc">
+              From first mile to final delivery, we coordinate carriers, documentation, and
+              exceptions so your team stays focused on the business.
+            </p>
+          </header>
+          <div class="cards">
+            <article class="card">
+              <div class="card-media">
+                <span class="card-index" aria-hidden="true">01</span>
+                <img
+                  src="https://images.unsplash.com/photo-1770710195407-b31627609c0b?w=900&q=80&auto=format&fit=crop"
+                  width="900"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                  data-i18n-alt="card_img_ocean_alt"
+                  alt="Stacked shipping containers at a port"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M3 10h18M5 6h14a2 2 0 012 2v10H3V8a2 2 0 012-2z" />
+                    <path d="M8 14h8M8 18h5" />
+                  </svg>
+                </div>
+                <h3 class="card-title" data-i18n="card_ocean_title">Ocean freight</h3>
+                <p class="card-text" data-i18n="card_ocean_text">
+                  FCL and LCL programs with predictable sailing schedules and space commitments on
+                  key lanes.
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media">
+                <span class="card-index" aria-hidden="true">02</span>
+                <img
+                  src="https://images.unsplash.com/photo-1565876464729-e5184585870a?w=900&q=80&auto=format&fit=crop"
+                  width="900"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                  data-i18n-alt="card_img_air_alt"
+                  alt="Aircraft used for air freight operations"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 3v3M5 9l2 5h10l2-5M7 14v5h10v-5" />
+                    <path d="M4 19h16" />
+                  </svg>
+                </div>
+                <h3 class="card-title" data-i18n="card_air_title">Air freight</h3>
+                <p class="card-text" data-i18n="card_air_text">
+                  Express and economy uplift options for high-value and time-sensitive cargo, with
+                  full visibility.
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media">
+                <span class="card-index" aria-hidden="true">03</span>
+                <img
+                  src="https://images.unsplash.com/photo-1747418962997-02ea64c265d8?w=900&q=80&auto=format&fit=crop"
+                  width="900"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                  data-i18n-alt="card_img_road_alt"
+                  alt="Commercial truck on a highway for road freight"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M4 16l4-8h8l4 8M6 16h12" />
+                    <circle cx="8" cy="18" r="2" />
+                    <circle cx="16" cy="18" r="2" />
+                  </svg>
+                </div>
+                <h3 class="card-title" data-i18n="card_road_title">Road &amp; distribution</h3>
+                <p class="card-text" data-i18n="card_road_text">
+                  Regional trucking, cross-border moves, and last-mile coordination across North
+                  America and beyond.
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media">
+                <span class="card-index" aria-hidden="true">04</span>
+                <img
+                  src="https://images.unsplash.com/photo-1504376830547-506dedfe1fe9?w=900&q=80&auto=format&fit=crop"
+                  width="900"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                  data-i18n-alt="card_img_customs_alt"
+                  alt="Warehouse and distribution handling"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="4" y="4" width="16" height="16" rx="2" />
+                    <path d="M8 12h8M8 8h4M8 16h6" />
+                  </svg>
+                </div>
+                <h3 class="card-title" data-i18n="card_customs_title">Customs &amp; compliance</h3>
+                <p class="card-text" data-i18n="card_customs_text">
+                  Classification support, filings, and audit-ready records aligned with your internal
+                  controls.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-why" id="why">
+        <div class="container why-grid">
+          <div class="why-copy-surface">
+            <p class="eyebrow" data-i18n="why_eyebrow">Why Meridian</p>
+            <h2 class="section-title" data-i18n="why_title">Built for operators who need answers, not excuses</h2>
+            <p class="section-desc" data-i18n="why_desc">
+              We combine structured processes with direct access to specialists — so when something
+              shifts at origin or destination, you hear it first and get options fast.
+            </p>
+            <ul class="checklist">
+              <li data-i18n="why_li1">Named contacts for your account, not anonymous queues</li>
+              <li data-i18n="why_li2">Exception playbooks for delays, rollovers, and inspections</li>
+              <li data-i18n="why_li3">Reporting that fits finance and operations, not generic templates</li>
+            </ul>
+          </div>
+          <div class="why-panel">
+            <figure class="why-photo">
+              <img
+                src="https://images.unsplash.com/photo-1769144256227-5185141c3aca?w=1200&q=80&auto=format&fit=crop"
+                width="1200"
+                height="800"
+                loading="lazy"
+                decoding="async"
+                data-i18n-alt="why_img_alt"
+                alt="Aerial view of a busy container terminal"
+              />
+            </figure>
+            <blockquote class="quote">
+              <p data-i18n="quote_body">
+                "We switched to a forwarding partner that treats visibility as a default — not an
+                add-on. That single change reduced our internal follow-up time dramatically."
+              </p>
+              <footer data-i18n-html="quote_footer">
+                — Operations Director, <cite>Industrial goods</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-process" id="process">
+        <div class="container">
+          <header class="section-head section-head--center">
+            <p class="eyebrow" data-i18n="proc_eyebrow">How it works</p>
+            <h2 class="section-title" data-i18n="proc_title">From booking to proof of delivery</h2>
+            <p class="section-desc section-desc--narrow" data-i18n="proc_desc">
+              A disciplined path from commercial booking through in-transit control to customs
+              release — so accountability stays visible at every milestone.
+            </p>
+          </header>
+          <div class="steps-board">
+          <ol class="steps">
+            <li class="step">
+              <span class="step-num">01</span>
+              <h3 class="step-title" data-i18n="step1_title">Scope &amp; routing</h3>
+              <p class="step-text" data-i18n="step1_text">We align on cargo, incoterms, timelines, and compliance needs.</p>
+            </li>
+            <li class="step">
+              <span class="step-num">02</span>
+              <h3 class="step-title" data-i18n="step2_title">Booking &amp; docs</h3>
+              <p class="step-text" data-i18n="step2_text">Carrier allocation, paperwork, and milestones locked in your dashboard.</p>
+            </li>
+            <li class="step">
+              <span class="step-num">03</span>
+              <h3 class="step-title" data-i18n="step3_title">In transit</h3>
+              <p class="step-text" data-i18n="step3_text">Proactive monitoring, rerouting when needed, and clear escalation paths.</p>
+            </li>
+            <li class="step">
+              <span class="step-num">04</span>
+              <h3 class="step-title" data-i18n="step4_title">Arrival &amp; release</h3>
+              <p class="step-text" data-i18n="step4_text">Customs, handover, and POD — with data you can plug into your ERP.</p>
+            </li>
+          </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta section-cta--split" id="contact">
+        <div class="cta-split">
+          <aside class="cta-split-aside" aria-label="Contact">
+            <div class="cta-split-aside-inner">
+              <p class="eyebrow eyebrow--cta" data-i18n="cta_eyebrow">Get started</p>
+              <h2 class="section-title cta-split-title" data-i18n="cta_title">Tell us about your next shipment</h2>
+              <p class="section-desc cta-split-desc" data-i18n="cta_desc">
+                Share lanes, volumes, and timelines — we'll respond with a clear proposal and
+                timeline. No generic rate sheets.
+              </p>
+              <div class="cta-contact cta-contact--light">
+                <p>
+                  <strong data-i18n="label_email_word">Email</strong>
+                  <a href="mailto:info@usederya.com">info@usederya.com</a>
+                </p>
+                <p>
+                  <strong data-i18n="label_phone_word">Phone</strong>
+                  <a href="tel:+13108941406">310 894 1406</a>
+                </p>
+              </div>
+            </div>
+          </aside>
+          <div class="cta-split-main">
+          <div class="quote-form-shell">
+            <header class="quote-form-head">
+              <h3 class="quote-form-title" data-i18n="form_panel_title">Shipment inquiry</h3>
+              <p class="quote-form-lead" data-i18n="form_panel_sub">
+                Typical response within one business day for active trade lanes.
+              </p>
+            </header>
+          <form class="quote-form quote-form--inset" action="#" method="post">
+            <div class="form-row">
+              <label for="company" data-i18n="form_company">Company</label>
+              <input id="company" name="company" type="text" autocomplete="organization" required />
+            </div>
+            <div class="form-row">
+              <label for="email" data-i18n="form_work_email">Work email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-row form-row--half">
+              <div>
+                <label for="mode" data-i18n="form_mode">Mode</label>
+                <select id="mode" name="mode" required>
+                  <option value="" selected disabled data-i18n="mode_select">Select</option>
+                  <option value="ocean" data-i18n="mode_ocean">Ocean</option>
+                  <option value="air" data-i18n="mode_air">Air</option>
+                  <option value="road" data-i18n="mode_road">Road</option>
+                  <option value="multimodal" data-i18n="mode_multimodal">Multimodal</option>
+                </select>
+              </div>
+              <div>
+                <label for="lane" data-i18n="form_lane">Origin → Destination</label>
+                <input
+                  id="lane"
+                  name="lane"
+                  type="text"
+                  data-i18n-placeholder="lane_placeholder"
+                  placeholder="e.g. Los Angeles → Rotterdam"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="details" data-i18n="form_details">Cargo &amp; timeline</label>
+              <textarea
+                id="details"
+                name="details"
+                rows="4"
+                data-i18n-placeholder="details_placeholder"
+                placeholder="Weight, volume, commodity, readiness date…"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" data-i18n="form_submit">Submit inquiry</button>
+            <p class="form-note" data-i18n="form_note">
+              This demo form does not send data yet — hook it to your backend or form service when ready.
+            </p>
+          </form>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="logo logo--footer" href="#top" data-i18n-aria="logo_aria">
+            <span class="logo-mark" aria-hidden="true">
+              <svg class="logo-svg logo-svg--footer" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="36" height="36" rx="4" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+                <line x1="18" y1="3" x2="18" y2="33" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+                <line x1="3" y1="18" x2="33" y2="18" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+                <path d="M7 28 Q16 7 29 14" stroke="#42B0D5" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+                <circle cx="7" cy="28" r="3" fill="rgba(255,255,255,0.88)"/>
+                <circle cx="7" cy="28" r="1.3" fill="#42B0D5"/>
+                <circle cx="29" cy="14" r="3" fill="rgba(255,255,255,0.88)"/>
+                <circle cx="29" cy="14" r="1.3" fill="rgba(1,31,61,0.7)"/>
+              </svg>
+            </span>
+            <span class="logo-text">Meridian<span class="logo-accent" data-i18n="logo_forwarding">Forwarding</span></span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer_tagline">International freight forwarding with a modern operations mindset.</p>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading" data-i18n="footer_company_h">Company</h3>
+          <ul class="footer-links">
+            <li><a href="#services" data-i18n="footer_services">Services</a></li>
+            <li><a href="#why" data-i18n="footer_about">About</a></li>
+            <li><a href="#contact" data-i18n="footer_contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading" data-i18n="footer_compliance_h">Compliance</h3>
+          <ul class="footer-links">
+            <li><a href="#" data-i18n="footer_terms">Terms</a></li>
+            <li><a href="#" data-i18n="footer_privacy">Privacy</a></li>
+            <li><a href="#" data-i18n="footer_cookies">Cookie policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-col--reach">
+          <h3 class="footer-heading" data-i18n="footer_reach_h">Reach us</h3>
+          <p class="footer-kv" data-i18n="footer_office">Los Angeles · Transpacific &amp; Americas lanes</p>
+          <p class="footer-kv footer-kv--muted" data-i18n="footer_hours">Desk: Mon–Fri 09:00–18:00 PST</p>
+          <p class="footer-kv">
+            <a href="mailto:info@usederya.com">info@usederya.com</a>
+          </p>
+          <p class="footer-kv">
+            <a href="tel:+13108941406">310 894 1406</a>
+          </p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> Meridian Forwarding.
+          <span data-i18n="footer_rights">All rights reserved.</span>
+        </p>
+        <p class="footer-photo-credit" data-i18n-html="photo_credit_html">
+          Photos from
+          <a href="https://unsplash.com" rel="noopener noreferrer" target="_blank">Unsplash</a>
+          (Unsplash License).
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
