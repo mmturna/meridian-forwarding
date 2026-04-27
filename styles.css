@@ -338,15 +338,15 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
 }
 
-.logo-mark .logo-svg {
-  width: 36px;
-  height: 36px;
+.logo-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
   display: block;
-  border-radius: 3px;
 }
 
 .logo--footer .logo-accent {
